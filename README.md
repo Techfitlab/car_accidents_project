@@ -1,4 +1,4 @@
-<h1>Project Repo: </h2>
+<h2>Project Details: </h2>
 artifacts: Models, Metrics and Experiments
 bin: Run script for executing the python files in the bash operator in Airflow
 data: All the data files used in training the model, usually these files are saved in the SQL database and imported in the python code rather than stored in the folder
