@@ -1,0 +1,86 @@
+artifact_path: best_estimator
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.7.6
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.2
+run_id: 20085800fd63432a82942b882d602624
+signature:
+  inputs: '[{"name": "Police_Force", "type": "long"}, {"name": "Number_of_Vehicles",
+    "type": "double"}, {"name": "Number_of_Casualties", "type": "double"}, {"name":
+    "rfm_score", "type": "long"}, {"name": "force_allocation", "type": "double"},
+    {"name": "Day_Sin", "type": "double"}, {"name": "Day_Cos", "type": "double"},
+    {"name": "Population_density", "type": "double"}, {"name": "Accident_Severity_1",
+    "type": "integer"}, {"name": "Accident_Severity_2", "type": "integer"}, {"name":
+    "Accident_Severity_3", "type": "integer"}, {"name": "1st_Road_Class_1", "type":
+    "integer"}, {"name": "1st_Road_Class_2", "type": "integer"}, {"name": "1st_Road_Class_3",
+    "type": "integer"}, {"name": "1st_Road_Class_4", "type": "integer"}, {"name":
+    "1st_Road_Class_5", "type": "integer"}, {"name": "1st_Road_Class_6", "type": "integer"},
+    {"name": "Road_Type_1", "type": "integer"}, {"name": "Road_Type_2", "type": "integer"},
+    {"name": "Road_Type_3", "type": "integer"}, {"name": "Road_Type_6", "type": "integer"},
+    {"name": "Road_Type_7", "type": "integer"}, {"name": "Road_Type_9", "type": "integer"},
+    {"name": "Speed_limit_20", "type": "integer"}, {"name": "Speed_limit_30", "type":
+    "integer"}, {"name": "Speed_limit_40", "type": "integer"}, {"name": "Speed_limit_50",
+    "type": "integer"}, {"name": "Speed_limit_60", "type": "integer"}, {"name": "Speed_limit_70",
+    "type": "integer"}, {"name": "Junction_Detail_-1", "type": "integer"}, {"name":
+    "Junction_Detail_0", "type": "integer"}, {"name": "Junction_Detail_1", "type":
+    "integer"}, {"name": "Junction_Detail_2", "type": "integer"}, {"name": "Junction_Detail_3",
+    "type": "integer"}, {"name": "Junction_Detail_5", "type": "integer"}, {"name":
+    "Junction_Detail_6", "type": "integer"}, {"name": "Junction_Detail_7", "type":
+    "integer"}, {"name": "Junction_Detail_8", "type": "integer"}, {"name": "Junction_Detail_9",
+    "type": "integer"}, {"name": "Junction_Control_-1", "type": "integer"}, {"name":
+    "Junction_Control_1", "type": "integer"}, {"name": "Junction_Control_2", "type":
+    "integer"}, {"name": "Junction_Control_3", "type": "integer"}, {"name": "Junction_Control_4",
+    "type": "integer"}, {"name": "2nd_Road_Class_-1", "type": "integer"}, {"name":
+    "2nd_Road_Class_1", "type": "integer"}, {"name": "2nd_Road_Class_2", "type": "integer"},
+    {"name": "2nd_Road_Class_3", "type": "integer"}, {"name": "2nd_Road_Class_4",
+    "type": "integer"}, {"name": "2nd_Road_Class_5", "type": "integer"}, {"name":
+    "2nd_Road_Class_6", "type": "integer"}, {"name": "Pedestrian_Crossing-Human_Control_0",
+    "type": "integer"}, {"name": "Pedestrian_Crossing-Human_Control_1", "type": "integer"},
+    {"name": "Pedestrian_Crossing-Human_Control_2", "type": "integer"}, {"name": "Pedestrian_Crossing-Physical_Facilities_0",
+    "type": "integer"}, {"name": "Pedestrian_Crossing-Physical_Facilities_1", "type":
+    "integer"}, {"name": "Pedestrian_Crossing-Physical_Facilities_4", "type": "integer"},
+    {"name": "Pedestrian_Crossing-Physical_Facilities_5", "type": "integer"}, {"name":
+    "Pedestrian_Crossing-Physical_Facilities_7", "type": "integer"}, {"name": "Pedestrian_Crossing-Physical_Facilities_8",
+    "type": "integer"}, {"name": "Light_Conditions_1", "type": "integer"}, {"name":
+    "Light_Conditions_4", "type": "integer"}, {"name": "Light_Conditions_5", "type":
+    "integer"}, {"name": "Light_Conditions_6", "type": "integer"}, {"name": "Light_Conditions_7",
+    "type": "integer"}, {"name": "Weather_Conditions_1", "type": "integer"}, {"name":
+    "Weather_Conditions_2", "type": "integer"}, {"name": "Weather_Conditions_3", "type":
+    "integer"}, {"name": "Weather_Conditions_4", "type": "integer"}, {"name": "Weather_Conditions_5",
+    "type": "integer"}, {"name": "Weather_Conditions_6", "type": "integer"}, {"name":
+    "Weather_Conditions_7", "type": "integer"}, {"name": "Weather_Conditions_8", "type":
+    "integer"}, {"name": "Weather_Conditions_9", "type": "integer"}, {"name": "Road_Surface_Conditions_-1",
+    "type": "integer"}, {"name": "Road_Surface_Conditions_1", "type": "integer"},
+    {"name": "Road_Surface_Conditions_2", "type": "integer"}, {"name": "Road_Surface_Conditions_3",
+    "type": "integer"}, {"name": "Road_Surface_Conditions_4", "type": "integer"},
+    {"name": "Road_Surface_Conditions_5", "type": "integer"}, {"name": "Special_Conditions_at_Site_0",
+    "type": "integer"}, {"name": "Special_Conditions_at_Site_1", "type": "integer"},
+    {"name": "Special_Conditions_at_Site_2", "type": "integer"}, {"name": "Special_Conditions_at_Site_3",
+    "type": "integer"}, {"name": "Special_Conditions_at_Site_4", "type": "integer"},
+    {"name": "Special_Conditions_at_Site_5", "type": "integer"}, {"name": "Special_Conditions_at_Site_6",
+    "type": "integer"}, {"name": "Special_Conditions_at_Site_7", "type": "integer"},
+    {"name": "Carriageway_Hazards_-1", "type": "integer"}, {"name": "Carriageway_Hazards_0",
+    "type": "integer"}, {"name": "Carriageway_Hazards_1", "type": "integer"}, {"name":
+    "Carriageway_Hazards_2", "type": "integer"}, {"name": "Carriageway_Hazards_3",
+    "type": "integer"}, {"name": "Carriageway_Hazards_6", "type": "integer"}, {"name":
+    "Carriageway_Hazards_7", "type": "integer"}, {"name": "Day_of_Week_1", "type":
+    "integer"}, {"name": "Day_of_Week_2", "type": "integer"}, {"name": "Day_of_Week_3",
+    "type": "integer"}, {"name": "Day_of_Week_4", "type": "integer"}, {"name": "Day_of_Week_5",
+    "type": "integer"}, {"name": "Day_of_Week_6", "type": "integer"}, {"name": "Day_of_Week_7",
+    "type": "integer"}, {"name": "Urban_or_Rural_Area_1", "type": "integer"}, {"name":
+    "Urban_or_Rural_Area_2", "type": "integer"}, {"name": "traffic_category_afternoon_traffic",
+    "type": "integer"}, {"name": "traffic_category_commuters_traffic", "type": "integer"},
+    {"name": "traffic_category_night_traffic", "type": "integer"}, {"name": "traffic_category_work_end_traffic",
+    "type": "integer"}, {"name": "traffic_category_work_start_traffic", "type": "integer"},
+    {"name": "km_clusters_0", "type": "integer"}, {"name": "km_clusters_1", "type":
+    "integer"}, {"name": "km_clusters_2", "type": "integer"}, {"name": "km_clusters_3",
+    "type": "integer"}, {"name": "km_clusters_4", "type": "integer"}, {"name": "km_clusters_5",
+    "type": "integer"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+utc_time_created: '2021-09-25 19:14:26.659130'
